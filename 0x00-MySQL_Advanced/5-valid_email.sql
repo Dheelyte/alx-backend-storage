@@ -1,6 +1,6 @@
 -- Creates a trigger that resets the attribute valid_email
 -- only when the email has been changed.
--- @author Bezaleel Olakunori <https://github.com/Dheelyte>
+-- @author Delight Olu-Olagbuji <https://github.com/Dheelyte>
 DROP TRIGGER IF EXISTS validate_email;
 DELIMITER $$
 CREATE TRIGGER validate_email
